@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+
+#padre {
+    border: 2px solid black;
+    margin: 40px 50px;
+}
+
+#cabecera, #producto, #total{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 300px;
+    position: relative;
+    left: 35%;
+}
+
+#tabla-principal {
+ width: 100%;
+}
+
+#tabla-total {
+    position: relative;
+    left: 50%;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.datos{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.datos > h4, p {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: larger;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+h4 {
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+tr, th {
+    border: 1px solid black;
+}
+
+td {
+    border-left: 1px solid black;
+}
+
+#adios {
+    display: block;
+    text-align: center;
+}

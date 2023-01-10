@@ -1,0 +1,130 @@
+<div id="padre">
+    <div id="cabecera">
+        <div id="titulo">
+            <img id="logo" src="logo.jpg">
+            <h1>PeruDelivery S.A</h1>
+        </div>
+        <div class="datos">
+            <h3>Datos de la empresa</h3>
+            <h4>Razon social:</h4><p>{{razon_social}}</p>
+            <h4>RUC:</h4><p>{{empresa_ruc}}</p>
+            <h4>Telefono:</h4><p>{{empresa_tlf}}</p>
+            <h4>Direccion:</h4><p>{{empresa_direccion}}</p>
+        </div>
+        <div class="datos">
+            <h3>Datos del cliente</h3>
+            <h4>DNI:</h4><p>{{cliente_dni}}</p>
+            <h4>Nombre:</h4><p>{{cliente_nombre}}</p>
+            <h4>Empresa:</h4><p>{{cliente_empresa}}</p>
+            <h4>Telefono:</h4><p>{{cliente_tlf}}</p>
+            <h4>Direccion:</h4><p>{{cliente_direccion}}</p>
+        </div>
+        <div class="datos">
+            <h3>Informacion</h3>
+            <h4>Fecha:</h4><p>{{fecha}}</p>
+            <h4>Estado:</h4><p>{{factura_estado}}</p>
+            <h4>Metodo de pago:</h4><p>{{factura_metodo_pago}}</p>
+        </div>
+    </div>
+
+    <div id="producto">
+        <table id="tabla-principal">
+            <tr>
+                <th>Nombre</th>
+                <th>Unidades</th>
+                <th>Precio por unidad</th>
+                <th>Precio lineal</th>
+            </tr>
+
+            <tr>
+                <td>{{producto_nombre1}}</td>
+                <td>{{producto_unidades1}}</td>
+                <td>{{producto_precio1}}</td>
+                <td>{{producto_precio_lineal1}}</td>
+            </tr>
+
+            <tr>
+                <td>{{producto_nombre2}}</td>
+                <td>{{producto_unidades2}}</td>
+                <td>{{producto_precio2}}</td>
+                <td>{{producto_precio_lineal2}}</td>
+            </tr>
+
+            <tr>
+                <td>{{producto_nombre3}}</td>
+                <td>{{producto_unidades3}}</td>
+                <td>{{producto_precio3}}</td>
+                <td>{{producto_precio_lineal3}}</td>
+            </tr>
+
+            <tr>
+                <td>{{producto_nombre4}}</td>
+                <td>{{producto_unidades4}}</td>
+                <td>{{producto_precio4}}</td>
+                <td>{{producto_precio_lineal4}}</td>
+            </tr>
+
+            <tr>
+                <td>{{producto_nombre5}}</td>
+                <td>{{producto_unidades5}}</td>
+                <td>{{producto_precio5}}</td>
+                <td>{{producto_precio_lineal5}}</td>
+            </tr>
+
+            <tr>
+                <td>{{producto_nombre6}}</td>
+                <td>{{producto_unidades6}}</td>
+                <td>{{producto_precio6}}</td>
+                <td>{{producto_precio_lineal6}}</td>
+            </tr>
+
+            <tr>
+                <td>{{producto_nombre7}}</td>
+                <td>{{producto_unidades7}}</td>
+                <td>{{producto_precio7}}</td>
+                <td>{{producto_precio_lineal7}}</td>
+            </tr>
+
+            <tr>
+                <td>{{producto_nombre8}}</td>
+                <td>{{producto_unidades8}}</td>
+                <td>{{producto_precio8}}</td>
+                <td>{{producto_precio_lineal8}}</td>
+            </tr>
+
+            <tr>
+                <td>{{producto_nombre9}}</td>
+                <td>{{producto_unidades9}}</td>
+                <td>{{producto_precio9}}</td>
+                <td>{{producto_precio_lineal9}}</td>
+            </tr>
+
+            <tr>
+                <td>{{producto_nombre10}}</td>
+                <td>{{producto_unidades10}}</td>
+                <td>{{producto_precio10}}</td>
+                <td>{{producto_precio_lineal10}}</td>
+            </tr>
+
+        </table>
+    </div>
+    
+    <div id="total">
+        <table id="tabla-total">
+            <tr>
+                <td>Subtotal:</td>
+                <td>{{subtotal}}</td>
+            </tr>
+            <tr>
+                <td>IGV:</td>
+                <td>18%</td>
+            </tr>
+            <tr>
+                <td>Total:</td>
+                <td>{{total}}</td>
+            </tr>
+        </table>
+        <br>
+        <h3 id="adios">Gracias por su compra!</h3>
+    </div>
+</div>
